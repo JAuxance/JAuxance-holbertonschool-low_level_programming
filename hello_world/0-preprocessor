@@ -1,4 +1,2 @@
-#!/bin.bash
-CFILE="0-preprocessor.C"
-OUT="0-preprocessor"
-gcc E- "$CFILE" > "$OUT"
+#!/bin.bash"
+gcc -E "$CFILE" -o c
