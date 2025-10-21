@@ -1,5 +1,2 @@
-# that script u can create an .exe named cisfun
-# GPT Note : -WAll enables a comprehensive set of warning messages during the compilation process
-
 #!/bin/bash
 gcc "$CFILE" -o cisfun.s
