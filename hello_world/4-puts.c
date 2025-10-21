@@ -2,9 +2,9 @@
 
 /**
  * main - Entry point
- * 
- * Desciption: Print a specific phrase to the  standard output 
- * 
+ *
+ * Desciption: Print a specific phrase to the  standard output
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
