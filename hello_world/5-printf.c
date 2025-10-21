@@ -10,7 +10,7 @@ int main(void)
 {
 char mytext[] = "with proper grammar, but the outcome is a piece of art,";
 
-printf("%s\n" ,mytext);
+printf("%s\n", mytext);
 
-return(0);
+return (0);
 }
