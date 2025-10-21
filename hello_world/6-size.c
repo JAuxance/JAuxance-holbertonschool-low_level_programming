@@ -4,7 +4,7 @@
  *
  * Description: display size of various types on the computer
  *
- * Retrun: Always main (Sucesse)
+ * Return: Always 0 (Sucesse)
  */
 int main(void)
 {
