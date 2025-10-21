@@ -6,5 +6,4 @@ char *mytext = "\"Programming is like building a multilingual puzzle";
 
 puts(mytext);
 return (0);
-
 }
