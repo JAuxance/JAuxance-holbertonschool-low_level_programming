@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: programe qui dit quand le nombre aléatoire de la variable et positif ou négatif
+ * Description: programe qui dit quand le nombre aléatoire de la f
  *
  * Return: Alawys 0 (Sucesse)
  */
@@ -14,17 +14,17 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if(n > 0)
+if (n > 0)
 {
-printf("%d is positive\n",n);
+printf("%d is positive\n", n);
 }
-if(n == 0)
+if (n == 0)
 {
-printf("%d is zero\n",n);
+printf("%d is zero\n", n);
 }
-if(n < 0)
+if (n < 0)
 {
-printf("%d is negative\n",n);
+printf("%d is negative\n", n);
 }
 return (0);
 }
