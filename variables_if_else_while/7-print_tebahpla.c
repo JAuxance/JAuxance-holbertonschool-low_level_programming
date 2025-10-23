@@ -12,7 +12,7 @@ int i = 0;
 while (alpha[i] != '\0')
 i++;
 
-while (i >= 0)
+while (i >= 'a')
 {
 	putchar(alpha[i]);
 	i--;
