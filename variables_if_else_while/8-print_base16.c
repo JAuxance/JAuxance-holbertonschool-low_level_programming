@@ -12,7 +12,6 @@ int i = 0;
 
 while (alpha[i] != '\0')
 {
-if (alpha[i] != 'e' && alpha[i] != 'q')
 putchar(alpha[i]);
 i++;
 }
