@@ -1,11 +1,21 @@
 #include <unistd.h>
 /**
- * main - Entry point
- * Description: prints _putchar, followed by a new line.
+ * _putchar - écrit un caractère sur la sortie standard
+ * @c: caractère à afficher
  *
- * Return: Alawys 0 (Sucesse)
+ * Return: 1 si succès, -1 si erreur et errno est défini
  */
-int _putchar(char c);
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+/**
+ * main - Entry point
+ *
+ * Description: prints _putchar followed by a new line.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	_putchar('_');
