@@ -8,6 +8,7 @@
  */
 int main(void)
 {
+char *digit;
 digit = "123456789";
 {
 	printf("%s\n", digit);
