@@ -7,6 +7,9 @@
  */
 int main(void)
 {
-  char *ch= "_putchar";
- printf("%s\n", ch);
+char *ch = "_putchar";
+{
+printf("%s\n", ch);
+return (0);
+}
 }
