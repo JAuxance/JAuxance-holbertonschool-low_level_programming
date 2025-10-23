@@ -1,20 +1,21 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - prints the alphabet in lowercase, followed by a new line.
  *
- * Description:  using printf to print numbers from 0 to 9
- *
- * Return: Alawys 0 (Sucesse)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char *decimal;
-char *digit;
 
-digit = "0123456789";
-decimal = "abcdef";
+char *alpha = "0123456789abcdef";
+int i = 0;
+
+while (alpha[i] != '\0')
 {
-	printf("%s%s\n", digit, decimal);
+if (alpha[i] != 'e' && alpha[i] != 'q')
+putchar(alpha[i]);
+i++;
 }
-	return (0);
+putchar('\n');
+return (0);
 }
