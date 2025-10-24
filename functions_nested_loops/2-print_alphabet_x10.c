@@ -8,13 +8,9 @@
  */
 void print_alphabet_x10(void)
 {
-char *alpha = "abcdefghijklmnopqrstuvwxyz";
-int i = 0;
-
-while (alpha[i] != '\0')
-{
-_putchar(alpha[i]);
-i++;
-}
-_putchar('\n');
+    int i;
+    for (i = 0; i < 10; i++)
+    {
+        print_alphabet();
+    }
 }
