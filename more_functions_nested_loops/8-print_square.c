@@ -1,19 +1,20 @@
 #include "main.h"
 /**
- * print_square - draws a square line in the terminal
- * @n: number of times the character _ should be printed
+ * print_square - draws a straight line in the terminal
+ * @size: number of times the character # should be printed
  * Return: void
  */
-void print_square(int n)
+void print_square(int size)
 {
-int i;
-if (n <= 0)
+int i, j;
+if (size <= 0)
 {
 _putchar('\n');
 return;
 }
-for (i = 0; i < n; i++)
+for (i = 0; i < size; i++)
 {
+for (j = 0; j < size; j++)
 _putchar('#');
 _putchar('\n');
 }
