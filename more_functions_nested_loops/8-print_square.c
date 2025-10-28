@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_square - draws a straight line in the terminal
- * @size: number of times the character # should be printed
+ * @size: number of times the character #	 should be printed
  * Return: void
  */
 void print_square(int size)
