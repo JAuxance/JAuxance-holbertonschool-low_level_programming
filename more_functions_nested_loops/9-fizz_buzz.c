@@ -25,5 +25,6 @@ int main(void)
 		if (n < 100)
 			printf(" ");
 	}
+	printf("/n");
 	return (0);
 }
