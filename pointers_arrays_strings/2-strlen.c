@@ -5,10 +5,11 @@
  * @s: string to evaluate
  * Return: length of the string
  */
-int _strlen(char *s);
+int _strlen(char *s)
 
-int len = 0;
 {
+	int len = 0;
+
 	while (s[len] != '\0')
 		len++;
 
