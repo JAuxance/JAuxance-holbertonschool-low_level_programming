@@ -9,8 +9,9 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int len = 0, len2 = 0, take = 0, j = 0, i = 0;
-	char *new;
+	int len = 0, take = 0, j = 0, i = 0;
+	unsigned int len2 = 0;
+	char *new = 0;
 
 	if (s1 == NULL)
 		s1 = "";
